@@ -13,12 +13,62 @@
 ### 1️⃣ Tambahkan Script ke Halaman HTML
 Sisipkan script berikut langsung di dalam halaman HTML Anda:
 ```html
+# AOS-Lite
+
+**AOS-Lite** adalah library JavaScript ringan yang memungkinkan elemen muncul dengan efek animasi seperti fade, slide, dan opacity saat masuk ke viewport. Library ini terinspirasi dari AOS, tetapi lebih fleksibel dan optimal, memungkinkan pengaturan **delay**, **durasi**, dan **jenis animasi** dengan mudah menggunakan atribut `data-aos`.
+
+## 🚀 Fitur Utama
+- Animasi masuk saat elemen muncul di layar.
+- Dukungan untuk **fade-left, fade-right, fade-up, fade-down,** dan **opacity**.
+- Pengaturan **delay** dan **durasi** langsung melalui atribut HTML.
+- Tidak memerlukan dependensi eksternal.
+- Ringan dan mudah digunakan.
+
+## 📌 Cara Menggunakan
+### 1️⃣ Tambahkan Script ke Halaman HTML
+Sisipkan script berikut langsung di dalam halaman HTML Anda:
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AOS-Lite Demo</title>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            gap: 20px;
+        }
+        .card {
+            width: 300px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .card h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 16px;
+            color: #777;
+        }
+        .show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
     <script defer>
         document.addEventListener("DOMContentLoaded", function () {
             console.log("Script loaded!");
@@ -92,3 +142,4 @@ Sisipkan script berikut langsung di dalam halaman HTML Anda:
     </div>
 </body>
 </html>
+
