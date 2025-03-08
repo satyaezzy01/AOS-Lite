@@ -13,21 +13,6 @@
 ### 1️⃣ Tambahkan Script ke Halaman HTML
 Sisipkan script berikut langsung di dalam halaman HTML Anda:
 ```html
-# AOS-Lite
-
-**AOS-Lite** adalah library JavaScript ringan yang memungkinkan elemen muncul dengan efek animasi seperti fade, slide, dan opacity saat masuk ke viewport. Library ini terinspirasi dari AOS, tetapi lebih fleksibel dan optimal, memungkinkan pengaturan **delay**, **durasi**, dan **jenis animasi** dengan mudah menggunakan atribut `data-aos`.
-
-## 🚀 Fitur Utama
-- Animasi masuk saat elemen muncul di layar.
-- Dukungan untuk **fade-left, fade-right, fade-up, fade-down,** dan **opacity**.
-- Pengaturan **delay** dan **durasi** langsung melalui atribut HTML.
-- Tidak memerlukan dependensi eksternal.
-- Ringan dan mudah digunakan.
-
-## 📌 Cara Menggunakan
-### 1️⃣ Tambahkan Script ke Halaman HTML
-Sisipkan script berikut langsung di dalam halaman HTML Anda:
-```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -136,6 +121,13 @@ Sisipkan script berikut langsung di dalam halaman HTML Anda:
         <h2>Produk B</h2>
         <p>Harga: Rp150.000</p>
     </div>
+
+    <div class="box" data-aos="fade-up" data-delay="500" data-duration="1500">
+        Fade Up (1.5s)
+    </div>
+</body>
+</html>
+
 
     <div class="box" data-aos="fade-up" data-delay="500" data-duration="1500">
         Fade Up (1.5s)
