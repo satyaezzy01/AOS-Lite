@@ -121,17 +121,102 @@ Sisipkan script berikut langsung di dalam halaman HTML Anda:
         <h2>Produk B</h2>
         <p>Harga: Rp150.000</p>
     </div>
-
-    <div class="box" data-aos="fade-up" data-delay="500" data-duration="1500">
-        Fade Up (1.5s)
+    <div class="card" data-aos="fade-down" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
     </div>
+    <div class="card" data-aos="fade-up" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="opacity" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-left" data-delay="300" data-duration="1000">
+        <h2>Produk A</h2>
+        <p>Harga: Rp100.000</p>
+    </div>
+
+    <div class="card" data-aos="fade-right" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-down" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-up" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="opacity" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-left" data-delay="300" data-duration="1000">
+        <h2>Produk A</h2>
+        <p>Harga: Rp100.000</p>
+    </div>
+
+    <div class="card" data-aos="fade-right" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-down" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-up" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="opacity" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-left" data-delay="300" data-duration="1000">
+        <h2>Produk A</h2>
+        <p>Harga: Rp100.000</p>
+    </div>
+
+    <div class="card" data-aos="fade-right" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-down" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-up" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="opacity" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-left" data-delay="300" data-duration="1000">
+        <h2>Produk A</h2>
+        <p>Harga: Rp100.000</p>
+    </div>
+
+    <div class="card" data-aos="fade-right" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-down" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="fade-up" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+    <div class="card" data-aos="opacity" data-delay="500" data-duration="1000">
+        <h2>Produk B</h2>
+        <p>Harga: Rp150.000</p>
+    </div>
+
 </body>
 </html>
-
-
-    <div class="box" data-aos="fade-up" data-delay="500" data-duration="1500">
-        Fade Up (1.5s)
-    </div>
-</body>
-</html>
-
