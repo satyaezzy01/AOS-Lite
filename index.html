@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Scroll Animation</title>
+    <script src="animation.js" defer></script>    
+    <style>
+        .box {
+            width: 100%;
+            height: 100vh; 
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" data-aos="fade-left" data-delay="300" data-duration="2000">Fade Left (2s)</div>
+    <div class="box" data-aos="fade-right" data-delay="500" data-duration="1000">Fade Right (1s)</div>
+    <div class="box" data-aos="fade-up" data-delay="700" data-duration="1500">Fade Up (1.5s)</div>
+    <div class="box" data-aos="fade-down" data-delay="1000" data-duration="2500">Fade Down (2.5s)</div>
+    <div class="box" data-aos="opacity" data-delay="1200" data-duration="3000">Opacity Effect (3s)</div>
+</body>
+</html>
